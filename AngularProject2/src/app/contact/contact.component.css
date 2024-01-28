@@ -1,0 +1,61 @@
+main {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+  justify-content: space-around;
+}
+
+.bg {
+    position: relative;
+    background-image:url(../../assets/img/contact_bg.jpg);
+    width: 100%;
+    height: 85vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+    overflow-x: hidden;
+}
+
+.contact {
+  font-size: inherit;
+  text-align: center;
+  padding: 2%;
+  background: radial-gradient(rgba(237, 242, 248, 100%), rgba(215, 227, 236, 100%));
+  border-radius: 5px;
+  min-width: 40vw;
+  min-height: fit-content;
+  position: absolute;
+  top: 10vh;
+  right: 5vw;
+  box-shadow: 2px 2px 2px #888;
+  border-radius: 10px;
+  border: 1px solid #888;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    padding: 1%;
+    cursor:pointer;
+}
+.waico, .phoneico, .mailico {
+  height: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  margin-bottom: 5px;
+}
+.waico {
+  background-image: url(../../assets/img/wa.png);
+}
+.phoneico {
+  background-image: url(../../assets/img/phone.png);
+}
+.mailico {
+  background-image: url(../../assets/img/mail.png);
+}

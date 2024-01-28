@@ -1,0 +1,95 @@
+
+.one {
+  background-image: url(../../assets/img/home_bg.jpg);
+  background-position: center;
+}
+.three {
+  background-image: url(../../assets/img/bg_2.jpg);
+  background-position:center;
+}
+.banner {
+    height: 85vmin;
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.screen {
+    background-color: rgba(0,0,0,50%);
+    margin: 10vmin;
+    height: 50%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius: 10px;
+}
+.motto {
+  color: white;
+  font-size: 5vw;
+  line-height: 5vw;
+  text-shadow: 1px 1px 2px white;
+}
+
+main {
+  position: absolute;
+  top: 15%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(../../assets/img/bg_3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+}
+.villas, .apartments {
+  display: flex;
+  justify-content: space-around;
+}
+.tours {
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.card {
+    cursor:pointer;
+    position: relative;
+    width: 25vmax;
+    height: 25vmax;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+img {
+  width: 100%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+.first, .third {
+  background-color: #E2AC48;
+}
+
+.second {
+  background-color: #A7C5C5;
+}
+
+.menu {
+    padding:1%;
+    display: flex;
+    justify-content:space-around;
+}
+
+.menubutton {
+  width: 25%;
+  background-color: #E2AC48;
+  border-radius: 10vmin;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+main {
+  width: 100%;
+  background-color: #E2AC48;
+  display: flex;
+  justify-content: space-around;
+  height: 15%;
+  position: fixed;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+}

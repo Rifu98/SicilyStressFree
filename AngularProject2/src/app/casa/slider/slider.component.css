@@ -1,0 +1,107 @@
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back {
+  cursor: pointer;
+  background-image: url('../../../assets/img/freccia1.png');
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
+.next {
+  cursor: pointer;
+  background-image: url('../../../assets/img/freccia2.png');
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 2%;
+}
+
+.back:hover {
+  background-color: rgba(255, 255, 255, 50%);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.next:hover {
+  background-color: rgba(255, 255, 255, 50%);
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.prewcontainer {
+    display: flex;
+    height: 5vmax;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 50%);
+    border-radius: calc(5vmax/2);
+    border-style:solid;
+    width: 90%;
+    align-items:center;
+    margin-bottom:1%;
+}
+
+.prew {
+  height: 4vmax;
+  width: 4vmax;
+  border-radius: 10px;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+}
+
+img {
+  max-width: 50vw;
+  height: 50vh;
+  object-fit: contain;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+.fullscreenimg {
+    justify-content:center;
+    align-items:center;
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,70%);
+    z-index: 3;
+}
+.hidden {
+    display: none;
+}
+
+.showed {
+    display: flex;
+}
+
+.fsimg{
+    width: 80vw;
+    height: 80vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    z-index:10;
+}

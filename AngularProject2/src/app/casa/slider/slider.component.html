@@ -1,0 +1,16 @@
+
+<main>
+  <div class="slider">
+    <div class="fullscreenimg" (click)="close()">
+      <div class="fsimg" style="background-image: url('{{imgurl}}')"></div>
+    </div>
+    <div class="back" (click)="goBack()"></div>
+    <img [src]="imgurl" [ngStyle]="transition" (click)="fullscreen(imgurl)">
+    <div class="next" (click)="goNext()"></div>
+  </div>
+  <div class="prewcontainer">
+    <div class="prew" *ngFor="let prew of prewurl" style="background-image: url('../../../assets/img/{{nome}}/{{prew}}.jpg')" (click)="goIndex(prew)">
+    </div>
+  </div>
+</main>
+

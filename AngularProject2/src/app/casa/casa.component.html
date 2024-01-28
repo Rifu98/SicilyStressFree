@@ -1,0 +1,27 @@
+
+<main>
+  <div class="title">{{nome}}</div>
+  <app-slider></app-slider>
+  <div class="container">
+    <div class="amenities">
+      <div class="title">Amenities</div>
+      <div class="content">
+        <div class="p" *ngFor="let p of amenities">{{p}}</div>
+      </div>
+    </div>
+    <div class="reviews">
+      <div class="title">Reviews</div>
+      <div class="content">
+        <div class="rew" *ngFor="let rew of rewurl" style="{{rew}}"></div>
+      </div>
+    </div>
+  </div>
+  <div class="description">
+    <div class="par" *ngFor="let par of description">
+      <p>{{par}}</p>
+    </div>
+  </div>
+
+</main>
+
+

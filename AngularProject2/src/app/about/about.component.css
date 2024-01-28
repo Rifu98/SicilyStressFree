@@ -1,0 +1,9 @@
+main {
+    position: absolute;
+    top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    justify-content: space-around;
+}

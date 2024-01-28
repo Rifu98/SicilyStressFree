@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0; overflow-x:hidden;
+}
+
+* {
+  font-family: 'Albert Sans', sans-serif;
+  font-size: inherit;
+  text-align: center;
+}
+
+.title {
+  font-weight: bolder;
+  color: white;
+  font-size: 3vmin;
+  line-height: 3vmin;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
+  text-shadow: 1px 1px 2px black;
+}
+
+button {
+  font-size: 2vmin;
+  line-height: 2vmin;
+  background-color: rgba(0,0,0,0);
+  border: none;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.black {
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+.anchor {
+  position: relative;
+  top: -15vh;
+}

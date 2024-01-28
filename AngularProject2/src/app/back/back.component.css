@@ -1,0 +1,17 @@
+main {
+  position: fixed;
+  top: calc(15%/2 - 5vmin/2);
+  left: 2vmin;
+  background-color: #E2AC48;
+  color: white;
+  z-index: 2;
+}
+
+button {
+  background-image: url('../../assets/img/freccia1.png');
+  text-shadow: 1px 1px 2px black;
+  height: 5vmin;
+  width: 5vmin;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

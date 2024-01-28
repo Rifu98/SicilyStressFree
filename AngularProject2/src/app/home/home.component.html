@@ -1,0 +1,53 @@
+<main>
+  <div class="banner one">
+    <div class="menu">
+      <div class="menubutton title" (click)="villaRedirect()">Villas</div>
+      <div class="menubutton title" (click)="apartmentRedirect()">Apartments</div>
+      <div class="menubutton title" (click)="tourRedirect()">Tours</div>
+    </div>
+    <div class="screen">
+      <div class="motto">Welcome to Wonder</div>
+    </div>
+  </div>
+  <a name="villa" class="anchor"></a>
+  <div class="first">
+    <div class="title">Our villas</div>
+    <div class="villas">
+      <div class="card" *ngFor="let villa of ville" routerLink='villa/{{villa.casa}}' (click)="scrollTop()">
+        <img src="../assets/img/{{villa.casa}}/0.jpg" />
+        <div class="title">{{villa.casa}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="banner two">
+    <div class="screen">
+      <div class="motto">Enjoy Sicily</div>
+    </div>
+  </div>
+  <a name="apartment" class="anchor"></a>
+  <div class="second">
+    <div class="title">Our apartments</div>
+    <div class="apartments">
+      <div class="card" *ngFor="let casa of case" routerLink='apartment/{{casa.casa}}' (click)="scrollTop()">
+        <img src="../assets/img/{{casa.casa}}/0.jpg" />
+        <div class="title">{{casa.casa}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="banner three">
+    <div class="screen">
+      <div class="motto">Come now!</div>
+    </div>
+  </div>
+  <a name="tour" class="anchor"></a>
+  <div class="third">
+    <div class="title">Our tours</div>
+    <div class="tours">
+      <div class="card" *ngFor="let tour of tours" routerLink='tour/{{tour.casa}}' (click)="scrollTop()">
+        <img src="../assets/img/{{tour.casa}}/0.jpg" />
+        <div class="title">{{tour.casa}}</div>
+      </div>
+    </div>
+  </div>
+
+</main>

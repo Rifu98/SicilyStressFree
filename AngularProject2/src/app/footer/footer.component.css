@@ -1,0 +1,20 @@
+main {
+    display:flex;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  padding: 5px;
+  height:auto;
+}
+div {
+  background-color: #E2AC48;
+  margin: 5px;
+  border-radius:10px;
+  padding: 5px;
+  cursor:pointer;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
